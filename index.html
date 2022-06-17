@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <div class="form-and-text-container">
+
+            <div class="text">
+                <h1>
+                    Learn to code by
+                    watching others
+                </h1>
+
+                <p>
+                    See how experienced developers solve problems in real-time.
+                    Watching scripted tutorials is great, but understanding how 
+                    developers think is invaluable.
+                </p>
+
+            </div>
+
+            <div class="form-section"> 
+
+                <a href="" class="trial-link"><span>Try it free 7 days</span> then $20/mo. thereafter</a>
+
+                <form action="">
+
+                    <input type="text" name="First-name" id=""  pattern="[a-zA-Z'-'\s]*" placeholder="First Name" required>
+                    <p class="error-message">First Name cannot be empty</p>
+
+                    <input type="text" name="last-name" id=""  pattern="[a-zA-Z'-'\s]*" placeholder="Last Name" required>
+                    <p class="error-message">Last Name cannot be empty</p>
+
+                    <input type="email" name="email" id="" placeholder="Email Address" required>
+                    <p class="error-message">Looks like this is not an email</p>
+
+                    <input type="password" name="password" id=""  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password" required>
+                    <p class="error-message">Password cannot be empty</p>
+
+                    <button type="submit" class="btn">CLAIM YOUR FREE TRIAL</button>
+
+
+                    <P class="terms-and-services">By clicking the button, you are agreeing to our <a href="">Terms and Services</a> </P>
+
+                </form>
+
+            </div>
+
+        </div>
+        
+    </body>
+</html>
